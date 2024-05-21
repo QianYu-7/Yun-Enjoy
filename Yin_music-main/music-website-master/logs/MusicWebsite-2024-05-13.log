@@ -1,0 +1,264 @@
+2024-05-13 08:33:07 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d11h6m46s966ms797µs200ns).
+2024-05-13 08:41:41 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_391 on DESKTOP-LO3NT8A with PID 19000 (C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master\music-server\target\classes started by wxt in C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master)
+2024-05-13 08:41:41 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2024-05-13 08:41:41 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-13 08:41:41 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-13 08:41:42 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2024-05-13 08:41:42 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 1152 ms
+2024-05-13 08:41:42 WARN [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: Unable to start LiveReload server
+2024-05-13 08:41:42 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext]: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8888 is already in use
+2024-05-13 08:41:42 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener]: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-05-13 08:41:42 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2024-05-13 08:43:28 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_391 on DESKTOP-LO3NT8A with PID 16264 (C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master\music-server\target\classes started by wxt in C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master)
+2024-05-13 08:43:28 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2024-05-13 08:43:28 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-13 08:43:28 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-13 08:43:29 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2024-05-13 08:43:29 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 1094 ms
+2024-05-13 08:43:30 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2024-05-13 08:43:30 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2024-05-13 08:43:30 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 1.8 seconds (JVM running for 2.654)
+2024-05-13 08:44:15 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2024-05-13 08:44:15 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 0 ms
+2024-05-13 08:44:15 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2024-05-13 08:44:16 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2024-05-13 08:44:20 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 08:44:20 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 08:44:20 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 08:44:20 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 08:47:40 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 08:47:43 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 08:48:15 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 08:49:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:01:07 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m50s653ms463µs800ns).
+2024-05-13 09:12:43 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:12:43 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:12:43 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:12:43 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:12:43 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:12:46 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:12:46 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:12:46 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:12:46 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:12:54 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:12:54 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:12:54 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:12:54 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:06 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:07 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:13:07 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:07 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:07 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:08 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:08 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:13:08 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:08 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:24 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:25 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:13:25 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:25 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:36 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:36 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:13:36 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:36 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:13:48 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:13:55 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:15:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:35 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:38 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:38 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:25:38 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:38 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:40 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:40 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:25:40 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:40 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:25:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:25:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:26:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:26:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:26:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:26:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:08 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:17 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:30 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:30 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:27:30 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:30 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:30 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:27:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:27:42 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:28:15 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:36:51 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:36:51 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 09:36:51 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:36:51 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 09:36:52 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 09:36:52 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:36:52 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:36:52 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 09:36:55 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 09:36:55 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 09:36:55 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:36:55 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:37:01 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:37:01 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 09:37:01 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:37:01 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 09:37:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:37:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:37:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 09:37:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 09:37:06 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:37:06 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 09:37:06 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 09:37:06 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:37:09 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:37:09 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 09:37:09 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:37:09 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 09:37:26 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 09:37:26 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 09:37:26 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 09:37:26 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 10:04:13 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 10:13:24 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 10:13:24 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 10:13:24 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 10:13:24 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 11:00:38 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 11:00:48 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 11:00:50 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 11:01:01 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 11:12:27 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 11:12:34 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 11:12:34 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 11:12:34 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 11:12:34 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 11:12:45 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 11:16:18 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 11:16:18 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 11:16:18 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 11:16:18 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 11:16:18 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 12:02:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 12:49:00 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m50s218ms627µs400ns).
+2024-05-13 13:30:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:31:16 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:45:20 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m48s815ms996µs100ns).
+2024-05-13 13:45:58 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 13:45:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:46:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:46:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 13:46:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:46:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:46:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:46:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:46:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 13:46:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:46:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:46:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:46:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:48:29 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:50:34 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:50:38 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:50:45 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:51:46 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:51:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:52:21 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 13:56:01 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 13:56:05 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 13:56:24 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 13:57:34 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 13:57:49 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 13:57:51 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 13:58:00 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 13:58:00 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:01:10 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:01:42 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:01:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:02:05 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:02:25 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:02:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:04:38 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:04:43 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 14:08:17 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:08:22 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:10:37 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:11:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:11:43 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:14:50 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:15:09 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:15:53 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:17:39 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:20:10 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+2024-05-13 14:20:10 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
+2024-05-13 14:20:14 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_391 on DESKTOP-LO3NT8A with PID 19400 (C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master\music-server\target\classes started by wxt in C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master)
+2024-05-13 14:20:14 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2024-05-13 14:20:14 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-13 14:20:14 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-13 14:20:15 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2024-05-13 14:20:15 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 1010 ms
+2024-05-13 14:20:16 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2024-05-13 14:20:16 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2024-05-13 14:20:16 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 1.671 seconds (JVM running for 2.618)
+2024-05-13 14:20:28 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2024-05-13 14:20:28 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 0 ms
+2024-05-13 14:20:28 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2024-05-13 14:20:29 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2024-05-13 14:20:36 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:20:37 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:23:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:23:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:23:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:23:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:23:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:23:04 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:23:05 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:23:05 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:23:05 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:23:05 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:25:21 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:25:21 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 14:25:21 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:25:21 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:25:21 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:25:21 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 14:52:44 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 18:27:15 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h36m44s663ms869µs700ns).
+2024-05-13 18:32:51 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m40s72ms654µs500ns).
+2024-05-13 18:39:06 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 18:42:08 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 18:42:20 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 19:19:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 19:19:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 19:19:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 19:19:32 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 19:19:37 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1556202448064L1.jpg
+2024-05-13 19:19:37 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1584896565998L1.jpg
+2024-05-13 19:19:37 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/1552354056660L1.jpg
+2024-05-13 19:19:37 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //img/user.jpg
+2024-05-13 20:40:27 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m34s728ms83µs700ns).
+2024-05-13 21:21:13 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m45s577ms847µs700ns).

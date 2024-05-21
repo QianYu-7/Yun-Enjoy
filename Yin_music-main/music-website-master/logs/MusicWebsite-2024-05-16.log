@@ -1,0 +1,54 @@
+2024-05-16 08:18:35 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h12m3s159ms58µs900ns).
+2024-05-16 08:24:50 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m15s20ms384µs400ns).
+2024-05-16 08:40:25 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_391 on DESKTOP-LO3NT8A with PID 3984 (C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master\Yun-server\target\classes started by wxt in C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master)
+2024-05-16 08:40:25 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2024-05-16 08:40:25 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-16 08:40:25 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-16 08:40:26 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2024-05-16 08:40:26 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 1230 ms
+2024-05-16 08:40:26 WARN [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: Unable to start LiveReload server
+2024-05-16 08:40:26 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext]: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8888 is already in use
+2024-05-16 08:40:26 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener]: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-05-16 08:40:26 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2024-05-16 08:41:32 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_391 on DESKTOP-LO3NT8A with PID 19840 (C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master\Yun-server\target\classes started by wxt in C:\Users\wxt\Desktop\Yin_music-main\Yin_music-main\music-website-master)
+2024-05-16 08:41:32 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2024-05-16 08:41:32 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-16 08:41:32 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-16 08:41:33 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2024-05-16 08:41:33 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 983 ms
+2024-05-16 08:41:33 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2024-05-16 08:41:33 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2024-05-16 08:41:33 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 1.672 seconds (JVM running for 2.643)
+2024-05-16 08:43:30 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2024-05-16 08:43:30 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2024-05-16 08:43:30 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2024-05-16 08:43:30 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2024-05-16 09:48:17 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m15s206ms958µs600ns).
+2024-05-16 10:18:43 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m55s393ms180µs400ns).
+2024-05-16 10:59:22 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/17155630643145EE07C8E55951FB3949558CD4AEC005D.jpg
+2024-05-16 10:59:24 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET //avatorImages/17155630643145EE07C8E55951FB3949558CD4AEC005D.jpg
+2024-05-16 11:49:12 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m57s505ms790µs900ns).
+2024-05-16 13:55:39 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44m26s623ms535µs100ns).
+2024-05-16 16:04:54 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m13s259ms13µs100ns).
+2024-05-16 18:10:50 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m51s642ms563µs800ns).
+2024-05-16 18:48:07 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s158ms553µs500ns).
+2024-05-16 19:53:52 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s891ms512µs200ns).
+2024-05-16 20:09:23 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m975ms743µs200ns).
+2024-05-16 20:13:40 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m19s386ms913µs600ns).
+2024-05-16 20:43:16 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m5s632ms371µs900ns).
+2024-05-16 21:03:07 WARN [com.zaxxer.hikari.pool.HikariPool]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m21s116ms273µs400ns).
